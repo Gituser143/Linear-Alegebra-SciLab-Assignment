@@ -15,9 +15,9 @@ v = a*u0
 a1 = max(u0)
 disp(a,'First approximation to eigen value is ')
 while abs(max(v)-a1)>0.002
-    disp(v,'current eigen vector is')
+    disp(v,'Current eigen vector is ')
     a1 = max(v)
-    disp(a1,'Current eigen value is')
+    disp(a1,'Current eigen value is ')
     u0 = v/max(v)
     v = a*u0
 end
