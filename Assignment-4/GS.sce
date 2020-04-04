@@ -1,4 +1,4 @@
-//Gram - Schmidt Orthogonalization
+//Gram-Schmidt Orthogonalization
 
 clear; close; clc;
 a = [0 0 0; 0 0 0; 0 0 0]
